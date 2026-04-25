@@ -20,4 +20,11 @@ newvar = {
     storage_name   = "sunset3"
     container_name = "bob1"
   }
-}
+   
+   rg4 = {
+    name = "lom9"
+    location = "south india"
+    storage_name = "min9"
+    container_name = "hint"
+   }
+
