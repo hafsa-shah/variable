@@ -20,6 +20,12 @@ newvar = {
     storage_name   = "sunset3"
     container_name = "bob1"
   }
+
+  rg5 = {
+    name 
+  }
+}
+..
    
    rg4 = {
     name = "lom9"
