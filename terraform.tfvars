@@ -11,7 +11,7 @@ newvar = {
     name           = "month"
     location       = "central us"
     storage_name   = "sinsit4"
-    container_name = "bob2"
+    container_name = "bob20"
   }
 
   rg3 = {
