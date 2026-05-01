@@ -21,3 +21,10 @@ resource "azurerm_storage_container" "pot6" {
   storage_account_id    = azurerm_storage_account.mynwstor[each.key].id
   container_access_type = "blob"
 }
+
+resource "azurerm_virtual_network" "vnet" {
+  name                = "vnet-demo"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  address_space       = ["10.0.0.0/16"]
+}
